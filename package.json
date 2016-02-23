@@ -1,0 +1,66 @@
+{
+  "name": "cetf",
+  "version": "1.0.0",
+  "description": "cet fronted end",
+  "scripts": {
+    "lint": "eslint 'src/**/*.@(js|jsx)'",
+    "start": "webpack-dev-server --devtool eval --progress --hot --colors --content-base src",
+    "build": "NODE_ENV=production webpack -p --config webpack.production.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wssgcg1213/cetf.git"
+  },
+  "keywords": [
+    "cetf"
+  ],
+  "author": "Ling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wssgcg1213/cetf/issues"
+  },
+  "homepage": "https://github.com/wssgcg1213/cetf#readme",
+  "dependencies": {
+    "babel-runtime": "6.x.x",
+    "classnames": "^2.2.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.7",
+    "react-weui": "^0.2.0",
+    "weui": "^0.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.2.3",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "6.x.x",
+    "copy-webpack-plugin": "^1.1.1",
+    "css-loader": "^0.23.0",
+    "enzyme": "^1.1.0",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-plugin-react": "^4.0.0",
+    "file-loader": "^0.8.5",
+    "istanbul": "^0.4.1",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "mocha": "^2.3.4",
+    "open-browser-webpack-plugin": "0.0.1",
+    "react-addons-test-utils": "^0.14.3",
+    "react-dom": "^0.14.2",
+    "react-router": "^1.0.2",
+    "rimraf": "^2.4.3",
+    "sinon": "^1.17.2",
+    "style-loader": "^0.13.0",
+    "uglify-loader": "^1.2.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
